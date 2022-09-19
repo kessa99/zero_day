@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+/**
+ * main - printt the size
+ *
+ * Return: 0 (Sucess)
+*/
+
+int main(void)
+{
+	int sizeof(int);
+	char sizeof(char);
+	float sizeof(float);
+	double sizeof(double);
+	long sizeof(long);
+
+	printf("%zu", &sizeof(int));
+	printf("%zu", &sizeof(char));
+	printf("%zu", &sizeof(float));
+	printf("%zu", &sizeof(double));
+	printf("%zu", &sizeof(long));
+
+	return (0);
+}
